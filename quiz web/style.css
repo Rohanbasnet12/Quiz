@@ -248,6 +248,7 @@ header {
 .resultDisplay h3 {
     line-height: 3;
     font-weight: lighter;
+    color: #2a2a2a;
     font-size: 1.3rem;
 }
 
