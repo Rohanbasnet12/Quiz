@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .container-details {
+        width: 80vw;
+        height: 65vh;
+    }
+
+    #display {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 965px) {
+    #display {
+        width: 90vw;
+        height: 80vh;
+    }
+}
+
+@media (max-width: 1125px) {
+    #display {
+        height: 80vh;
+    }
+}

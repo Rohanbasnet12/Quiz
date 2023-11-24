@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Web Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <nav id="navbar">
+                <div class="nav-head">
+                    <h1>Quizoo <span>mania</span></h1>
+                </div>
+            </nav>
+        </header>
+
+        <div id="container">
+            <div class="container-details">
+                <h1>Quizoo Mania</h1>
+                <h3>Let us all improve our knowledge here !!</h3>
+                <p>
+                    Playing quizzes at home is less stressful and allows us to put ourselves to the test. Quiz games are
+                    especially useful for shy or introverted children who are afraid of getting the answer wrong and
+                    embarrassing themselves in class.
+                </p>
+                <div class="btn">
+                    <button id="startBtn">Start</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-container">
+            <div id="display">
+                <div class="numberOfQuestion">
+                    <h1 id="displayQuestionNumber">1/7</h1>
+                </div>
+                <div class="ques">
+                    <h1 id="text-ques">Welcome to quizo mania</h1>
+                </div>
+                <div class="answer">
+                    <button id="text-ans">1 Answer</button>
+                    <button id="text-ans">2 Answer</button>
+                    <button id="text-ans">3 Answer</button>
+                    <button id="text-ans">4 Answer</button>
+                </div>
+                <div class="btn">
+                    <button id="nextQuestionBtn" class="bottom-btn">
+                        <p>Next</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <button id="resultBtn" style="display: none;" class="bottom-btn"> Result </button>
+                </div>
+                <div class="resultDisplay">
+                    <h1>Quizoo Mania</h1>
+                    <h3 id="result">Your Score 2 out of 7</h3>
+
+                    <button id="playAgainBtn">Play Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
